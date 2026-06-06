@@ -770,14 +770,7 @@
 	"editor.semanticTokenColorCustomizations": {},
 	// Overrides editor syntax colors and font style from the currently selected color theme.
 	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"scope": "keyword.other.dotenv",
-				"settings": {
-					"foreground": "#FF000000"
-				}
-			}
-		]
+		"textMateRules": []
 	},
 
 
@@ -1895,7 +1888,7 @@
 	//<========>DOTENV<========>
 	"dotenv.cloakColor": "#C7910C",
 	"dotenv.cloakIcon": "▒",
-	"dotenv.enableAutocloaking": true,
+	"dotenv.enableAutocloaking": false,
 	//<========>BACKGROUND<========>
 	"background.backgroundOpacity": [
 		0.1,
@@ -1907,9 +1900,9 @@
 		"https://i.pinimg.com/originals/80/3f/c0/803fc0653c3126dc38b31fd2b348f312.jpg"
 	],
 	//<================>DEFAULT FORMATTER<================>
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+	// "[html]": {
+	// 	"editor.defaultFormatter": "esbenp.prettier-vscode"
+	// },
 	"[css]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
