@@ -88,8 +88,9 @@
 	"terminal.integrated.scrollback": 8192,
 	"terminal.integrated.shellIntegration.history": 1024,
 	"terminal.integrated.stickyScroll.enabled": false,
-	"terminal.integrated.tabs.location": "left",
 	"terminal.integrated.shellIntegration.timeout": -1,
+	//<================>UPDATE<================>
+	"update.showReleaseNotes": false,
 	//<================>WINDOWS<================>
 	"window.commandCenter": false,
 	"window.autoDetectHighContrast": false,
