@@ -4,6 +4,7 @@ beardedbear.beardedtheme
 bradlc.vscode-tailwindcss
 dart-code.dart-code
 dart-code.flutter
+davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
 devsense.composer-php-vscode
 devsense.intelli-php-vscode
