@@ -1,5 +1,6 @@
 aaron-bond.better-comments
 angular.ng-template
+apollographql.vscode-apollo
 beardedbear.beardedtheme
 bradlc.vscode-tailwindcss
 dart-code.dart-code
@@ -36,6 +37,7 @@ ms-vscode.cpptools
 ms-vscode.powershell
 msjsdiag.vscode-react-native
 oderwat.indent-rainbow
+oxc.oxc-vscode
 pkief.material-icon-theme
 prisma.prisma
 redhat.java
@@ -45,6 +47,7 @@ shopify.ruby-extensions-pack
 shopify.ruby-lsp
 sorbet.sorbet-vscode-extension
 svelte.svelte-vscode
+vitest.explorer
 vmware.vscode-boot-dev-pack
 vmware.vscode-spring-boot
 vscjava.vscode-gradle

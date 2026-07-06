@@ -1,9 +1,10 @@
 aaron-bond.better-comments@3.0.2
 angular.ng-template@22.0.1
+apollographql.vscode-apollo@2.6.6
 beardedbear.beardedtheme@10.1.0
 bradlc.vscode-tailwindcss@0.14.29
-dart-code.dart-code@3.136.1
-dart-code.flutter@3.136.0
+dart-code.dart-code@3.138.0
+dart-code.flutter@3.138.0
 davidanson.vscode-markdownlint@0.61.2
 dbaeumer.vscode-eslint@3.0.24
 devsense.composer-php-vscode@1.71.19014
@@ -29,13 +30,14 @@ ms-python.debugpy@2026.6.0
 ms-python.python@2026.4.0
 ms-python.vscode-pylance@2026.2.1
 ms-python.vscode-python-envs@1.36.0
-ms-vscode-remote.remote-containers@0.459.1
+ms-vscode-remote.remote-containers@0.463.0
 ms-vscode.cmake-tools@1.23.52
 ms-vscode.cpp-devtools@0.5.13
 ms-vscode.cpptools@1.32.2
 ms-vscode.powershell@2025.4.0
 msjsdiag.vscode-react-native@1.13.0
 oderwat.indent-rainbow@8.3.1
+oxc.oxc-vscode@1.58.0
 pkief.material-icon-theme@5.36.1
 prisma.prisma@31.11.0
 redhat.java@1.55.0
@@ -45,6 +47,7 @@ shopify.ruby-extensions-pack@0.1.14
 shopify.ruby-lsp@0.10.4
 sorbet.sorbet-vscode-extension@0.3.46
 svelte.svelte-vscode@110.2.1
+vitest.explorer@1.50.7
 vmware.vscode-boot-dev-pack@0.2.2
 vmware.vscode-spring-boot@2.2.0
 vscjava.vscode-gradle@3.17.3
@@ -55,5 +58,5 @@ vscjava.vscode-java-test@0.46.0
 vscjava.vscode-maven@0.45.3
 vscjava.vscode-spring-boot-dashboard@0.14.0
 vscjava.vscode-spring-initializr@0.12.0
-vue.volar@3.3.5
+vue.volar@3.3.6
 wix.vscode-import-cost@3.3.0
