@@ -1,21 +1,6 @@
-# ⚙️ vscode-devkit
+# ⚙️ devkit
 
-Personal VS Code configuration kit by **QuantFerox**.
+![version](https://img.shields.io/badge/version-1.0.3-6C63FF?style=for-the-badge)
+![license](https://img.shields.io/badge/license-MIT-00C896?style=for-the-badge)
 
-```
-Version : 1.0.3
-VS Code : 1.127.0
-Date    : 07.07.2026
-```
-
----
-
-## 📁 Files
-
-| File                     | Description                        |
-| ------------------------ | ---------------------------------- |
-| `settings.json`          | Editor & workspace configuration   |
-| `keybindings.json`       | Custom keybindings                 |
-| `extensions.txt`         | Extension IDs                      |
-| `extensions.version.txt` | Extension IDs with pinned versions |
-| `fonts.txt`              | Recommended fonts                  |
+> 🚀 Personal VS Code setup by **QuantFerox** — settings, keybindings, extensions, fonts & more, all organized by folder and ready to drop in.
