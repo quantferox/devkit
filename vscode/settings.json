@@ -17,7 +17,7 @@
   //<================>EDITOR<================>
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.codeLensFontFamily": "JetBrains Mono",
+  "editor.codeLensFontFamily": "Fira Code",
   "editor.colorDecorators": true,
   "editor.colorDecoratorsActivatedOn": "click",
   "editor.dragAndDrop": false,
