@@ -46,6 +46,7 @@ redhat.vscode-yaml
 shopify.ruby-extensions-pack
 shopify.ruby-lsp
 sorbet.sorbet-vscode-extension
+streetsidesoftware.code-spell-checker
 svelte.svelte-vscode
 vitest.explorer
 vmware.vscode-boot-dev-pack

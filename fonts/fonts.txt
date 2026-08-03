@@ -1,3 +1,2 @@
 fira-code
 jetbrains-mono
-maple-mono

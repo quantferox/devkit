@@ -1,11 +1,14 @@
 {
   /**
-   * ! AUTHOR  : Murad Gazymagomedov (quantferox)
-   * ? VERSION : 1.0.3 (Release)
-   * * DATE    : 07.07.2026
-   **/
+    * ! AUTHOR  : Murad Gazymagomedov (quantferox)
+    * ? VERSION : 1.0.4 (Release)
+    * ? VS.CODE : 1.131.0
+    * * DATE    : 03.08.2026
+  **/
   //<================>ACCESSIBILITY<================>
-  "accessibility.signals.terminalBell": { "sound": "off" },
+  "accessibility.signals.terminalBell": {
+    "sound": "off"
+  },
   //<================>BREADCRUMBS<================>
   "breadcrumbs.enabled": false,
   //<================>CHAT<================>
@@ -14,10 +17,9 @@
   //<================>EDITOR<================>
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.codeLensFontFamily": "Fira Code",
+  "editor.codeLensFontFamily": "JetBrains Mono",
   "editor.colorDecorators": true,
   "editor.colorDecoratorsActivatedOn": "click",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.dragAndDrop": false,
   "editor.dropIntoEditor.enabled": true,
   "editor.fontFamily": "Fira Code",
@@ -35,20 +37,57 @@
   "editor.renderFinalNewline": "dimmed",
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "boundary",
+  "editor.detectIndentation": false,
   "editor.roundedSelection": false,
   "editor.rulers": [
-    { "column": 78, "color": "#3498db30" },
-    { "column": 79, "color": "#3498db60" },
-    { "column": 80, "color": "#3498db90" },
-    { "column": 86, "color": "#2ecc7130" },
-    { "column": 87, "color": "#2ecc7160" },
-    { "column": 88, "color": "#2ecc7190" },
-    { "column": 98, "color": "#e67e2230" },
-    { "column": 99, "color": "#e67e2260" },
-    { "column": 100, "color": "#e67e2290" },
-    { "column": 118, "color": "#ff000030" },
-    { "column": 119, "color": "#ff000060" },
-    { "column": 120, "color": "#ff000090" }
+    {
+      "column": 78,
+      "color": "#3498db30"
+    },
+    {
+      "column": 79,
+      "color": "#3498db60"
+    },
+    {
+      "column": 80,
+      "color": "#3498db90"
+    },
+    {
+      "column": 86,
+      "color": "#2ecc7130"
+    },
+    {
+      "column": 87,
+      "color": "#2ecc7160"
+    },
+    {
+      "column": 88,
+      "color": "#2ecc7190"
+    },
+    {
+      "column": 98,
+      "color": "#e67e2230"
+    },
+    {
+      "column": 99,
+      "color": "#e67e2260"
+    },
+    {
+      "column": 100,
+      "color": "#e67e2290"
+    },
+    {
+      "column": 118,
+      "color": "#ff000030"
+    },
+    {
+      "column": 119,
+      "color": "#ff000060"
+    },
+    {
+      "column": 120,
+      "color": "#ff000090"
+    }
   ],
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "visible",
@@ -147,7 +186,8 @@
   "html.format.indentHandlebars": true,
   "html.format.templating": true,
   "html.format.wrapLineLength": 0,
-  "html.format.indentInnerHtml": true,
+  "html.format.indentInnerHtml": false,
+  "html.format.extraLiners": "",
   //<========>CSS<========>
   "css.format.spaceAroundSelectorSeparator": true,
   "css.lint.duplicateProperties": "warning",
@@ -176,8 +216,15 @@
   //<========>PHP<========>
   "php.inlayHints.parameters.enabled": false,
   "php.inlayHints.types.return": false,
-  "php.problems.exclude": { "/": [416], "vendor/": true },
-  "[php]": { "editor.defaultFormatter": "DEVSENSE.phptools-vscode" },
+  "php.problems.exclude": {
+    "/": [
+      416
+    ],
+    "vendor/": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
   //<========>PYTHON<========>
   "python.experiments.enabled": false,
   "python.terminal.activateEnvironment": false,
@@ -187,9 +234,24 @@
   "python.analysis.showOnlyDirectDependenciesInAutoImport": true,
   "python.analysis.typeCheckingMode": "off",
   "python.analysis.userFileIndexingLimit": 10000,
-  "[python]": { "editor.defaultFormatter": "ms-python.black-formatter" },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   //<========>BLACK-FORMATTER<========>
   "black-formatter.args": [],
+  //<========>JAVA========>
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+  "java.sources.organizeImports.starThreshold": 128,
+  "java.sources.organizeImports.staticStarThreshold": 128,
+  //<========>XML<========>
+  "xml.format.maxLineWidth": 0,
+  "xml.logs.client": false,
+  //<========>YAML<========>
+  "yaml.extension.recommendations": false,
+  "yaml.format.printWidth": 0,
+  "yaml.format.trailingComma": false,
+  "yaml.yamlVersion": "1.2",
   //<================>EXTENSIONS<================>
   //<========>KUBERNETES<========>
   "vs-kubernetes": {
@@ -200,39 +262,6 @@
   "importCost.bundleSizeColoring": "compressed",
   //<========>REDHAT<========>
   "redhat.telemetry.enabled": false,
-  //<========>PRETTIER<========>
-  "prettier.arrowParens": "always",
-  "prettier.bracketSameLine": false,
-  "prettier.bracketSpacing": true,
-  "prettier.configPath": "",
-  "prettier.documentSelectors": [],
-  "prettier.embeddedLanguageFormatting": "auto",
-  "prettier.enable": true,
-  "prettier.enableDebugLogs": false,
-  "prettier.endOfLine": "lf",
-  "prettier.experimentalOperatorPosition": "end",
-  "prettier.experimentalTernaries": false,
-  "prettier.htmlWhitespaceSensitivity": "css",
-  "prettier.ignorePath": ".prettierignore",
-  "prettier.insertPragma": false,
-  "prettier.jsxSingleQuote": false,
-  "prettier.objectWrap": "preserve",
-  "prettier.prettierPath": "",
-  "prettier.printWidth": 100,
-  "prettier.proseWrap": "preserve",
-  "prettier.quoteProps": "consistent",
-  "prettier.requireConfig": false,
-  "prettier.requirePragma": false,
-  "prettier.resolveGlobalModules": false,
-  "prettier.semi": true,
-  "prettier.singleAttributePerLine": false,
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.trailingComma": "all",
-  "prettier.useEditorConfig": true,
-  "prettier.useTabs": false,
-  "prettier.vueIndentScriptAndStyle": false,
-  "prettier.withNodeModules": false,
   //<========>INDENT RAINBOW<========>
   "indentRainbow.colors": [
     "rgba(46,204,113,0.08)",
@@ -246,11 +275,43 @@
   "dotenv.cloakColor": "#777777",
   "dotenv.cloakIcon": "▒",
   "dotenv.enableAutocloaking": true,
+  //<========>MATERIAL ICON THEME<========>
+  "material-icon-theme.folders.color": "#c7910c",
+  "material-icon-theme.hidesExplorerArrows": false,
+  "material-icon-theme.folders.customClones": [
+    {
+      "name": "user",
+      "base": "admin",
+      "color": "purple-400",
+      "lightColor": "light-green-700",
+      "folderNames": [
+        "user",
+        "users"
+      ],
+      "rootFolderNames": [
+        "user",
+        "users"
+      ]
+    }
+  ],
+  "material-icon-theme.folders.associations": {
+    "react": "react-components"
+  },
   //<========>BACKGROUND<========>
-  "background.backgroundOpacity": [0.1, 0.1, 0.1, 0.1],
+  "background.backgroundOpacity": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
   "background.renderTextAboveBackground": false,
-  "background.backgroundBlur": ["0", "1px", "0", "0"],
+  "background.backgroundBlur": [
+    "0",
+    "1px",
+    "0",
+    "0"
+  ],
   "background.editorBackgrounds": [
-    "C:\\Visuals\\VisualStudioCode\\9921de42ede13832ff5b845c71db8b44.gif"
+    "C:\\Visuals\\gif\\9921de42ede13832ff5b845c71db8b44.gif"
   ]
 }
