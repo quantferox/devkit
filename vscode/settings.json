@@ -1,9 +1,9 @@
 {
   /**
     * ! AUTHOR  : Murad Gazymagomedov (quantferox)
-    * ? VERSION : 1.0.4 (Release)
-    * ? VS.CODE : 1.131.0
-    * * DATE    : 03.08.2026
+    * ? VERSION : 1.0.5 (Release)
+    * ? VS.CODE : 1.133.0
+    * * DATE    : 14.08.2026
   **/
   //<================>ACCESSIBILITY<================>
   "accessibility.signals.terminalBell": {
@@ -27,8 +27,9 @@
   "editor.fontSize": 12,
   "editor.fontWeight": "normal",
   "editor.formatOnSave": true,
-  "editor.glyphMargin": false,
+  "editor.glyphMargin": true,
   "editor.inlineSuggest.enabled": false,
+  "editor.inlayHints.enabled": "off",
   "editor.lightbulb.enabled": "off",
   "editor.lineHeight": 0,
   "editor.minimap.enabled": false,
@@ -253,11 +254,6 @@
   "yaml.format.trailingComma": false,
   "yaml.yamlVersion": "1.2",
   //<================>EXTENSIONS<================>
-  //<========>KUBERNETES<========>
-  "vs-kubernetes": {
-    "vscode-kubernetes.helm-path-windows": "C:\\Users\\QuantFerox\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\QuantFerox\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-  },
   //<========>IMPORT COST<========>
   "importCost.bundleSizeColoring": "compressed",
   //<========>REDHAT<========>
@@ -291,6 +287,268 @@
       "rootFolderNames": [
         "user",
         "users"
+      ]
+    },
+    {
+      "name": "entity",
+      "base": "database",
+      "color": "blue-400",
+      "lightColor": "blue-700",
+      "folderNames": [
+        "entity",
+        "entities"
+      ],
+      "rootFolderNames": [
+        "entity",
+        "entities"
+      ]
+    },
+    {
+      "name": "domain",
+      "base": "core",
+      "color": "deep-purple-400",
+      "lightColor": "deep-purple-700",
+      "folderNames": [
+        "domain"
+      ],
+      "rootFolderNames": [
+        "domain"
+      ]
+    },
+    {
+      "name": "dto",
+      "base": "json",
+      "color": "orange-400",
+      "lightColor": "orange-700",
+      "folderNames": [
+        "dto",
+        "dtos"
+      ],
+      "rootFolderNames": [
+        "dto",
+        "dtos"
+      ]
+    },
+    {
+      "name": "exception",
+      "base": "error",
+      "color": "red-400",
+      "lightColor": "red-700",
+      "folderNames": [
+        "exception",
+        "exceptions"
+      ],
+      "rootFolderNames": [
+        "exception",
+        "exceptions"
+      ]
+    },
+    {
+      "name": "mapper",
+      "base": "mappings",
+      "color": "teal-400",
+      "lightColor": "teal-700",
+      "folderNames": [
+        "mapper",
+        "mappers"
+      ],
+      "rootFolderNames": [
+        "mapper",
+        "mappers"
+      ]
+    },
+    {
+      "name": "request",
+      "base": "api",
+      "color": "cyan-400",
+      "lightColor": "cyan-700",
+      "folderNames": [
+        "request",
+        "requests"
+      ],
+      "rootFolderNames": [
+        "request",
+        "requests"
+      ]
+    },
+    {
+      "name": "response",
+      "base": "content",
+      "color": "green-400",
+      "lightColor": "green-700",
+      "folderNames": [
+        "response",
+        "responses"
+      ],
+      "rootFolderNames": [
+        "response",
+        "responses"
+      ]
+    },
+    {
+      "name": "listener",
+      "base": "messages",
+      "color": "amber-400",
+      "lightColor": "amber-700",
+      "folderNames": [
+        "listener",
+        "listeners"
+      ],
+      "rootFolderNames": [
+        "listener",
+        "listeners"
+      ]
+    },
+    {
+      "name": "metrics",
+      "base": "benchmark",
+      "color": "indigo-400",
+      "lightColor": "indigo-700",
+      "folderNames": [
+        "metrics"
+      ],
+      "rootFolderNames": [
+        "metrics"
+      ]
+    },
+    {
+      "name": "scheduler",
+      "base": "job",
+      "color": "yellow-400",
+      "lightColor": "yellow-700",
+      "folderNames": [
+        "scheduler",
+        "schedulers"
+      ],
+      "rootFolderNames": [
+        "scheduler",
+        "schedulers"
+      ]
+    },
+    {
+      "name": "permission",
+      "base": "keys",
+      "color": "purple-400",
+      "lightColor": "purple-700",
+      "folderNames": [
+        "permission",
+        "permissions"
+      ],
+      "rootFolderNames": [
+        "permission",
+        "permissions"
+      ]
+    },
+    {
+      "name": "modal",
+      "base": "layout",
+      "color": "purple-400",
+      "lightColor": "purple-700",
+      "folderNames": [
+        "modal",
+        "modals"
+      ],
+      "rootFolderNames": [
+        "modal",
+        "modals"
+      ]
+    },
+    {
+      "name": "state",
+      "base": "redux-store",
+      "color": "blue-400",
+      "lightColor": "blue-700",
+      "folderNames": [
+        "state",
+        "states"
+      ],
+      "rootFolderNames": [
+        "state",
+        "states"
+      ]
+    },
+    {
+      "name": "profile",
+      "base": "admin",
+      "color": "indigo-400",
+      "lightColor": "indigo-700",
+      "folderNames": [
+        "profile",
+        "profiles"
+      ],
+      "rootFolderNames": [
+        "profile",
+        "profiles"
+      ]
+    },
+    {
+      "name": "selector",
+      "base": "redux-selector",
+      "color": "cyan-400",
+      "lightColor": "cyan-700",
+      "folderNames": [
+        "selector",
+        "selectors"
+      ],
+      "rootFolderNames": [
+        "selector",
+        "selectors"
+      ]
+    },
+    {
+      "name": "slice",
+      "base": "redux-toolkit",
+      "color": "orange-400",
+      "lightColor": "orange-700",
+      "folderNames": [
+        "slice",
+        "slices"
+      ],
+      "rootFolderNames": [
+        "slice",
+        "slices"
+      ]
+    },
+    {
+      "name": "contact",
+      "base": "shared",
+      "color": "green-400",
+      "lightColor": "green-700",
+      "folderNames": [
+        "contact",
+        "contacts"
+      ],
+      "rootFolderNames": [
+        "contact",
+        "contacts"
+      ]
+    },
+    {
+      "name": "mutation",
+      "base": "redux-actions",
+      "color": "red-400",
+      "lightColor": "red-700",
+      "folderNames": [
+        "mutation",
+        "mutations"
+      ],
+      "rootFolderNames": [
+        "mutation",
+        "mutations"
+      ]
+    },
+    {
+      "name": "query",
+      "base": "api",
+      "color": "teal-400",
+      "lightColor": "teal-700",
+      "folderNames": [
+        "query",
+        "queries"
+      ],
+      "rootFolderNames": [
+        "query",
+        "queries"
       ]
     }
   ],
