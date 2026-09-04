@@ -17,6 +17,7 @@ esbenp.prettier-vscode
 golang.go
 graphql.vscode-graphql
 graphql.vscode-graphql-syntax
+htmlhint.vscode-htmlhint
 katsute.code-background
 laravel.vscode-laravel
 ms-azuretools.vscode-containers

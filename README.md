@@ -3,13 +3,13 @@
 <pre>
 ██████╗ ███████╗██╗   ██╗██╗  ██╗██╗████████╗
 ██╔══██╗██╔════╝██║   ██║██║ ██╔╝██║╚══██╔══╝
-██║  ██║█████╗  ██║   ██║█████╔╝ ██║   ██║   
-██║  ██║██╔══╝  ╚██╗ ██╔╝██╔═██╗ ██║   ██║   
-██████╔╝███████╗ ╚████╔╝ ██║  ██╗██║   ██║   
-╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝   ╚═╝   
+██║  ██║█████╗  ██║   ██║█████╔╝ ██║   ██║
+██║  ██║██╔══╝  ╚██╗ ██╔╝██╔═██╗ ██║   ██║
+██████╔╝███████╗ ╚████╔╝ ██║  ██╗██║   ██║
+╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝   ╚═╝
 </pre>
 
-![version](https://img.shields.io/badge/version-1.0.5-6C63FF?style=for-the-badge&logoColor=white)
+![version](https://img.shields.io/badge/version-1.0.6-6C63FF?style=for-the-badge&logoColor=white)
 ![platform](https://img.shields.io/badge/cross--platform-00C896?style=for-the-badge&logoColor=white)
 ![license](https://img.shields.io/badge/license-MIT-6C63FF?style=for-the-badge)
 
