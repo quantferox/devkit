@@ -9,8 +9,8 @@
 ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝   ╚═╝   
 </pre>
 
-![version](https://img.shields.io/badge/version-1.0.6-6C63FF?style=for-the-badge&logoColor=white)
 ![platform](https://img.shields.io/badge/cross--platform-00C896?style=for-the-badge&logoColor=white)
+![version](https://img.shields.io/badge/version-1.0.8-6C63FF?style=for-the-badge&logoColor=white)
 ![license](https://img.shields.io/badge/license-MIT-6C63FF?style=for-the-badge)
 
 <br>
@@ -25,10 +25,12 @@ No manual tweaking, no hunting for settings — just clone and you're done.
 
 ```
 devkit/
-├── vscode/       — settings, keybindings, extensions, etc.
-├── fonts/        — fonts used across the setup, etc.
-├── resources/    — wallpapers, avatars, icons, gifs, etc.
-└── ...           — more to come
+├── vscode/           — settings, keybindings, extensions, etc.
+├── fonts/            — fonts used across the setup, etc.
+├── resources/        — wallpapers, avatars, icons, gifs, etc.
+├── configs/
+│   └── php/          — php.ini, modules, etc.
+└── ...               — more to come
 ```
 
 <br>

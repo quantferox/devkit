@@ -1,9 +1,9 @@
 {
   /**
     * ! AUTHOR  : Murad Gazymagomedov (quantferox)
-    * ? VERSION : 1.0.7 (Release)
-    * ? VS.CODE : 1.136.1
-    * * DATE    : 06.09.2026
+    * ? VERSION : 1.0.8 (Release)
+    * ? VS.CODE : 1.138.0
+    * * DATE    : 18.09.2026
   **/
   //<================>ACCESSIBILITY<================>
   "accessibility.signals.terminalBell": {
