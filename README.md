@@ -10,7 +10,7 @@
 </pre>
 
 ![platform](https://img.shields.io/badge/cross--platform-00C896?style=for-the-badge&logoColor=white)
-![version](https://img.shields.io/badge/version-1.0.8-6C63FF?style=for-the-badge&logoColor=white)
+![version](https://img.shields.io/badge/version-1.0.9-6C63FF?style=for-the-badge&logoColor=white)
 ![license](https://img.shields.io/badge/license-MIT-6C63FF?style=for-the-badge)
 
 <br>

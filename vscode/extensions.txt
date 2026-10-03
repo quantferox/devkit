@@ -18,6 +18,7 @@ golang.go
 graphql.vscode-graphql
 graphql.vscode-graphql-syntax
 htmlhint.vscode-htmlhint
+jetbrains.kotlin-server
 katsute.code-background
 laravel.vscode-laravel
 ms-azuretools.vscode-containers
@@ -35,6 +36,7 @@ ms-vscode-remote.remote-containers
 ms-vscode.cmake-tools
 ms-vscode.cpp-devtools
 ms-vscode.cpptools
+ms-vscode.live-server
 ms-vscode.powershell
 msjsdiag.vscode-react-native
 oderwat.indent-rainbow

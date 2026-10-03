@@ -1,9 +1,9 @@
 {
   /**
     * ! AUTHOR  : Murad Gazymagomedov (quantferox)
-    * ? VERSION : 1.0.8 (Release)
-    * ? VS.CODE : 1.138.0
-    * * DATE    : 18.09.2026
+    * ? VERSION : 1.0.9 (Release)
+    * ? VS.CODE : 1.140.0
+    * * DATE    : 04.10.2026
   **/
   //<================>ACCESSIBILITY<================>
   "accessibility.signals.terminalBell": {
@@ -102,16 +102,6 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 100,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "keyword.other.dotenv",
-        "settings": {
-          "foreground": "#FF000000"
-        }
-      }
-    ]
-  },
   //<================>EXPLORER<================>
   "explorer.compactFolders": false,
   //<================>FILES<================>
@@ -214,6 +204,11 @@
   "js/ts.autoClosingTags.enabled": true,
   "js/ts.hover.maximumLength": 1500,
   "js/ts.updateImportsOnFileMove.enabled": "always",
+  //<========>JAVA========>
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+  "java.sources.organizeImports.starThreshold": 128,
+  "java.sources.organizeImports.staticStarThreshold": 128,
   //<========>PHP<========>
   "php.inlayHints.parameters.enabled": false,
   "php.inlayHints.types.return": false,
@@ -240,11 +235,6 @@
   },
   //<========>BLACK-FORMATTER<========>
   "black-formatter.args": [],
-  //<========>JAVA========>
-  "java.configuration.updateBuildConfiguration": "automatic",
-  "java.codeGeneration.hashCodeEquals.useInstanceof": true,
-  "java.sources.organizeImports.starThreshold": 128,
-  "java.sources.organizeImports.staticStarThreshold": 128,
   //<========>XML<========>
   "xml.format.maxLineWidth": 0,
   "xml.logs.client": false,
@@ -253,7 +243,14 @@
   "yaml.format.printWidth": 0,
   "yaml.format.trailingComma": false,
   "yaml.yamlVersion": "1.2",
+  //<========>MARKDOWN<========>
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
   //<================>EXTENSIONS<================>
+  //<========>INTELLIJ<========>
+  "intellij.region": "apac",
+  "intellij.dataSharing": "none",
   //<========>IMPORT COST<========>
   "importCost.bundleSizeColoring": "compressed",
   //<========>REDHAT<========>
